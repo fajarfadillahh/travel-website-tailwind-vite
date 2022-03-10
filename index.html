@@ -21,6 +21,47 @@
     />
   </head>
   <body class="font-body">
+    <!-- ===== HEADER SECTION ===== -->
+    <header
+      class="header fixed w-full top-0 left-0 bg-green z-50 transition-all duration-500"
+      id="header"
+    >
+      <div
+        class="header__container container h-24 flex justify-between items-center"
+      >
+        <a href="#" class="header__logo text-[18px] text-white font-semibold"
+          >Travel</a
+        >
+
+        <div class="header__menu" id="header-menu">
+          <ul class="header__list flex flex-col gap-6">
+            <li class="header__item">
+              <a href="#" class="header__link active-link">Home</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">About</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Discover</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Place</a>
+            </li>
+          </ul>
+
+          <a href="#" class="header__button button mt-6">Get Started</a>
+        </div>
+
+        <div
+          class="header__toggle inline-flex text-[1.5rem] text-white cursor-pointer"
+          id="header-toggle"
+        >
+          <i class="bx bx-menu"></i>
+        </div>
+      </div>
+    </header>
+    <!-- ===== HEADER SECTION ===== -->
+
     <!-- ===== MAIN JS ===== -->
     <script type="module" src="./src/js/main.js"></script>
   </body>

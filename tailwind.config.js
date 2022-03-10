@@ -17,8 +17,8 @@ module.exports = {
       transparent: "transparent",
       current: "currentColor",
       white: "#ffffff",
-      green: "#11414b",
-      grey: "#44686f",
+      green: "#14505c",
+      grey: "#919ea1",
     },
     fontFamily: {
       body: ["Open Sans", "sans-serif"],
