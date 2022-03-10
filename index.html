@@ -23,7 +23,7 @@
   <body class="font-body">
     <!-- ===== HEADER SECTION ===== -->
     <header
-      class="header fixed w-full top-0 left-0 bg-green z-50 transition-all duration-500"
+      class="header fixed w-full top-0 left-0 bg-transparent z-50 transition-all duration-500"
       id="header"
     >
       <div
@@ -61,6 +61,89 @@
       </div>
     </header>
     <!-- ===== HEADER SECTION ===== -->
+
+    <main class="overflow-hidden">
+      <!-- ===== HOME SECTION ===== -->
+      <section class="home" id="home">
+        <img
+          src="./src/img/home1.jpg"
+          alt=""
+          class="home__bg absolute w-full h-screen top-0 left-0 object-cover object-[80%]"
+        />
+
+        <div
+          class="home__container container grid gap-12 relative h-screen content-center"
+        >
+          <div class="home__data">
+            <span
+              class="home__subtitle block text-[15px] text-white font-semibold capitalize mb-3"
+              >Discover your place</span
+            >
+            <h1 class="home__title text-[42px] text-white font-medium mb-10">
+              Explore The <br />
+              Best
+              <b
+                >Beautiful <br />
+                Beaches</b
+              >
+            </h1>
+            <a href="#" class="home__button button inline-flex">Explore Now</a>
+          </div>
+
+          <div class="home__social flex flex-col gap-6">
+            <a
+              href="#"
+              class="home__social-link inline-flex text-[1.5rem] text-white w-max"
+              target="_blank"
+            >
+              <i class="bx bxl-facebook-square"></i>
+            </a>
+            <a
+              href="#"
+              class="home__social-link inline-flex text-[1.5rem] text-white w-max"
+              target="_blank"
+            >
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a
+              href="#"
+              class="home__social-link inline-flex text-[1.5rem] text-white w-max"
+              target="_blank"
+            >
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </div>
+
+          <div
+            class="home__info absolute right-6 bottom-8 w-[250px] bg-green flex py-6 px-4 items-center gap-x-2"
+          >
+            <div class="home__info-data">
+              <h3
+                class="home__info-title text-[14px] text-white font-semibold mb-3"
+              >
+                5 Best places to visit
+              </h3>
+              <a
+                href="#"
+                class="home__info-button inline-flex items-center text-[14px] text-white gap-1"
+              >
+                More
+                <i class="bx bx-right-arrow-alt text-[1rem]"></i>
+              </a>
+            </div>
+
+            <div class="home__info-overlay overflow-hidden">
+              <img
+                src="./src/img/home2.jpg"
+                alt=""
+                class="home__info-img w-[145px] transition-all duration-500 hover:scale-110"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== HOME SECTION ===== -->
+    </main>
 
     <!-- ===== MAIN JS ===== -->
     <script type="module" src="./src/js/main.js"></script>
