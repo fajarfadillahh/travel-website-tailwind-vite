@@ -50,3 +50,15 @@
 .header.sticky-header .header__toggle {
   @apply text-green;
 }
+
+/* ===== PAGINATION DISCOVER ===== */
+.swiper-pagination {
+  position: initial;
+  margin-top: 1.5rem;
+}
+.swiper-pagination-bullet {
+  @apply w-2 h-2 bg-[rgba(0,0,0,0.1)] opacity-100;
+}
+.swiper-pagination-bullet-active {
+  @apply w-8 h-2 rounded-3xl bg-green;
+}

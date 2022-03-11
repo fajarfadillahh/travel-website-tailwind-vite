@@ -19,6 +19,12 @@
       href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
       rel="stylesheet"
     />
+
+    <!-- ===== SWIPER CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
   </head>
   <body class="font-body">
     <!-- ===== HEADER SECTION ===== -->
@@ -183,7 +189,110 @@
         </div>
       </section>
       <!-- ===== ABOUT SECTION ===== -->
+
+      <!-- ===== DISCOVER SECTION ===== -->
+      <section class="discover section">
+        <div class="discover__data">
+          <h1 class="discover__title section-title">
+            Discover the most <br />
+            attractive places
+          </h1>
+        </div>
+
+        <div class="discover__container container">
+          <div class="swiper discover-container">
+            <div class="swiper-wrapper">
+              <div
+                class="discover__item swiper-slide relative w-[200px] overflow-hidden before:absolute before:w-full before:h-[40%] before:bottom-0 before:left-0 before:bg-gradient-to-t before:from-[rgba(0,0,0,0.5)] before:to-transparent"
+              >
+                <img
+                  src="./src/img/discover1.jpg"
+                  alt=""
+                  class="discover__item-img"
+                />
+                <div class="discover__item-data absolute bottom-6 left-4">
+                  <h3
+                    class="discover__item-title text-[20px] text-white font-semibold mb-1"
+                  >
+                    Bali
+                  </h3>
+                  <p class="discover__item-text text-[15px] text-white">
+                    24 tours availables
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="discover__item swiper-slide relative w-[200px] overflow-hidden before:absolute before:w-full before:h-[40%] before:bottom-0 before:left-0 before:bg-gradient-to-t before:from-[rgba(0,0,0,0.5)] before:to-transparent"
+              >
+                <img
+                  src="./src/img/discover2.jpg"
+                  alt=""
+                  class="discover__item-img"
+                />
+                <div class="discover__item-data absolute bottom-6 left-4">
+                  <h3
+                    class="discover__item-title text-[20px] text-white font-semibold mb-1"
+                  >
+                    Hawaii
+                  </h3>
+                  <p class="discover__item-text text-[15px] text-white">
+                    19 tours availables
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="discover__item swiper-slide relative w-[200px] overflow-hidden before:absolute before:w-full before:h-[40%] before:bottom-0 before:left-0 before:bg-gradient-to-t before:from-[rgba(0,0,0,0.5)] before:to-transparent"
+              >
+                <img
+                  src="./src/img/discover3.jpg"
+                  alt=""
+                  class="discover__item-img"
+                />
+                <div class="discover__item-data absolute bottom-6 left-4">
+                  <h3
+                    class="discover__item-title text-[20px] text-white font-semibold mb-1"
+                  >
+                    Hvar
+                  </h3>
+                  <p class="discover__item-text text-[15px] text-white">
+                    20 tours availables
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="discover__item swiper-slide relative w-[200px] overflow-hidden before:absolute before:w-full before:h-[40%] before:bottom-0 before:left-0 before:bg-gradient-to-t before:from-[rgba(0,0,0,0.5)] before:to-transparent"
+              >
+                <img
+                  src="./src/img/discover4.jpg"
+                  alt=""
+                  class="discover__item-img"
+                />
+                <div class="discover__item-data absolute bottom-6 left-4">
+                  <h3
+                    class="discover__item-title text-[20px] text-white font-semibold mb-1"
+                  >
+                    Maldives
+                  </h3>
+                  <p class="discover__item-text text-[15px] text-white">
+                    21 tours availables
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Swiper Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== DISCOVER SECTION ===== -->
     </main>
+
+    <!-- ===== SWIPER JS ===== -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
     <!-- ===== MAIN JS ===== -->
     <script type="module" src="./src/js/main.js"></script>
