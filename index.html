@@ -29,7 +29,7 @@
   <body class="font-body">
     <!-- ===== HEADER SECTION ===== -->
     <header
-      class="header fixed w-full top-0 left-0 bg-transparent z-50 transition-all duration-500"
+      class="header fixed w-full top-0 left-0 bg-transparent z-50 transition-all duration-300"
       id="header"
     >
       <div
@@ -37,7 +37,7 @@
       >
         <a
           href="#"
-          class="header__logo text-[18px] text-white font-semibold transition-all duration-500"
+          class="header__logo text-[18px] text-white font-semibold transition-all duration-300"
           >Travel</a
         >
 
@@ -61,7 +61,7 @@
         </div>
 
         <div
-          class="header__toggle inline-flex text-[1.5rem] text-white cursor-pointer transition-all duration-500"
+          class="header__toggle inline-flex text-[1.5rem] text-white cursor-pointer transition-all duration-300"
           id="header-toggle"
         >
           <i class="bx bx-menu"></i>
@@ -144,7 +144,7 @@
               <img
                 src="./src/img/home2.jpg"
                 alt=""
-                class="home__info-img w-[145px] transition-all duration-500 hover:scale-110"
+                class="home__info-img w-[145px] transition-all duration-300 hover:scale-110"
               />
             </div>
           </div>
@@ -175,14 +175,14 @@
               <img
                 src="./src/img/about1.jpg"
                 alt=""
-                class="about__img-1 w-[130px] transition-all duration-500 hover:scale-110"
+                class="about__img-1 w-[130px] transition-all duration-300 hover:scale-110"
               />
             </div>
             <div class="about__img-overlay overflow-hidden">
               <img
                 src="./src/img/about2.jpg"
                 alt=""
-                class="about__img-2 w-[180px] transition-all duration-500 hover:scale-110"
+                class="about__img-2 w-[180px] transition-all duration-300 hover:scale-110"
               />
             </div>
           </div>
@@ -345,7 +345,7 @@
               <img
                 src="./src/img/experience1.jpg"
                 alt=""
-                class="experience__img-1 transition-all duration-500 cursor-pointer hover:scale-110"
+                class="experience__img-1 transition-all duration-300 cursor-pointer hover:scale-110"
               />
             </div>
 
@@ -355,13 +355,39 @@
               <img
                 src="./src/img/experience2.jpg"
                 alt=""
-                class="experience__img-2 transition-all duration-500 cursor-pointer hover:scale-110"
+                class="experience__img-2 transition-all duration-300 cursor-pointer hover:scale-110"
               />
             </div>
           </div>
         </div>
       </section>
       <!-- ===== EXPERIENCE SECTION ===== -->
+
+      <!-- ===== VIDEO SECTION ===== -->
+      <section class="video section">
+        <div class="video__container container grid gap-12">
+          <div class="video__data text-center">
+            <h1 class="video__title section-title">Video Tour</h1>
+            <p class="video__text text-[15px] text-grey leading-text">
+              Find out more with our video of the most beautiful and pleasant
+              places for you and your family.
+            </p>
+          </div>
+
+          <div class="video__content relative">
+            <video class="video__content-file" id="video-file">
+              <source src="./src/video/video.mp4" type="video/mp4" />
+            </video>
+            <button
+              class="video__content-button inline-flex absolute right-4 -bottom-4 py-2 px-4 bg-green rounded text-[1.8rem] text-white transition-all duration-300 hover:bg-[#09272c]"
+              id="video-button"
+            >
+              <i class="bx bx-play video__content-icon" id="video-icon"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- ===== VIDEO SECTION ===== -->
     </main>
 
     <!-- ===== SWIPER JS ===== -->

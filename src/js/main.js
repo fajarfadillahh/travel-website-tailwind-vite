@@ -41,3 +41,32 @@ let swiper = new Swiper(".discover-container", {
     clickable: true,
   },
 });
+
+// ===== VIDEO SECTION ====
+const videoFile = document.getElementById("video-file");
+const videoButton = document.getElementById("video-button");
+const videoIcon = document.getElementById("video-icon");
+
+function playPause() {
+  if (videoFile.paused) {
+    // Play Video
+    videoFile.play();
+    // We Change The Icon
+    videoIcon.classList.add("bx-pause");
+    videoIcon.classList.remove("bx-play");
+  } else {
+    // Play Video
+    videoFile.pause();
+    // We Change The Icon
+    videoIcon.classList.remove("bx-pause");
+    videoIcon.classList.add("bx-play");
+  }
+}
+videoButton.addEventListener("click", playPause);
+
+function finalVideo() {
+  // Video end, icon change
+  videoIcon.classList.remove("bx-pause");
+  videoIcon.classList.add("bx-play");
+}
+videoFile.addEventListener("ended", finalVideo);
