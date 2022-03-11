@@ -29,7 +29,9 @@
       <div
         class="header__container container h-24 flex justify-between items-center"
       >
-        <a href="#" class="header__logo text-[18px] text-white font-semibold"
+        <a
+          href="#"
+          class="header__logo text-[18px] text-white font-semibold transition-all duration-500"
           >Travel</a
         >
 
@@ -53,7 +55,7 @@
         </div>
 
         <div
-          class="header__toggle inline-flex text-[1.5rem] text-white cursor-pointer"
+          class="header__toggle inline-flex text-[1.5rem] text-white cursor-pointer transition-all duration-500"
           id="header-toggle"
         >
           <i class="bx bx-menu"></i>
@@ -64,7 +66,7 @@
 
     <main class="overflow-hidden">
       <!-- ===== HOME SECTION ===== -->
-      <section class="home" id="home">
+      <section class="home pb-16" id="home">
         <img
           src="./src/img/home1.jpg"
           alt=""
@@ -143,6 +145,44 @@
         </div>
       </section>
       <!-- ===== HOME SECTION ===== -->
+
+      <!-- ===== ABOUT SECTION ===== -->
+      <section class="about section">
+        <div class="about__container container grid gap-12">
+          <div class="about__data text-center">
+            <h1 class="about__title section-title">
+              More Information <br />
+              About The Best Beaches
+            </h1>
+            <p class="about__text text-[15px] text-grey leading-text mb-8">
+              You can find the most beautiful and pleasant places at the best
+              prices with special discounts, you choose the place we will guide
+              you all the way to wait, get your place now.
+            </p>
+            <a href="#" class="about__button button inline-flex"
+              >Reverse a Place</a
+            >
+          </div>
+
+          <div class="about__img flex gap-x-4 justify-center items-center">
+            <div class="about__img-overlay overflow-hidden">
+              <img
+                src="./src/img/about1.jpg"
+                alt=""
+                class="about__img-1 w-[130px] transition-all duration-500 hover:scale-110"
+              />
+            </div>
+            <div class="about__img-overlay overflow-hidden">
+              <img
+                src="./src/img/about2.jpg"
+                alt=""
+                class="about__img-2 w-[180px] transition-all duration-500 hover:scale-110"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== ABOUT SECTION ===== -->
     </main>
 
     <!-- ===== MAIN JS ===== -->

@@ -42,3 +42,11 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
+/* Sticky Header */
+.header.sticky-header {
+  @apply bg-white shadow-[0_4px_12px_rgba(0,0,0,0.1)];
+}
+.header.sticky-header .header__logo,
+.header.sticky-header .header__toggle {
+  @apply text-green;
+}
