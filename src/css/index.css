@@ -18,7 +18,7 @@
 
   /* Button Class */
   .button {
-    @apply flex justify-center items-center py-4 px-8 bg-green rounded text-[15px] text-white font-semibold transition-all duration-300 hover:bg-[#09272c];
+    @apply flex justify-center items-center py-4 px-8 bg-green text-[15px] text-white font-semibold transition-all duration-300 hover:bg-[#09272c];
   }
 }
 
