@@ -62,3 +62,8 @@
 .swiper-pagination-bullet-active {
   @apply w-8 h-2 rounded-3xl bg-green;
 }
+
+/* ===== SCROLLUP SECTION ===== */
+.scrollup.scroll-action {
+  @apply opacity-100;
+}

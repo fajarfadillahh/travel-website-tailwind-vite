@@ -25,6 +25,16 @@ function stickyHeader() {
 }
 window.addEventListener("scroll", stickyHeader);
 
+// ===== SCROLLUP SECTION =====
+function scrollUp() {
+  const scrollup = document.getElementById("scroll-up");
+
+  this.scrollY > 10
+    ? scrollup.classList.add("scroll-action")
+    : scrollup.classList.remove("scroll-action");
+}
+window.addEventListener("scroll", scrollUp);
+
 // ===== SWIPER DISCOVER =====
 let swiper = new Swiper(".discover-container", {
   effect: "coverflow",
