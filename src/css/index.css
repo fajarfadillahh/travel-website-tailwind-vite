@@ -13,12 +13,12 @@
     @apply pt-24 pb-16;
   }
   .section-title {
-    @apply text-[24px] text-green font-semibold text-center capitalize mb-6 leading-title;
+    @apply text-[24px] text-green font-semibold text-center capitalize mb-6 leading-title lg:text-[32px];
   }
 
   /* Button Class */
   .button {
-    @apply flex justify-center items-center py-4 px-8 bg-green text-[15px] text-white font-semibold transition-all duration-300 hover:bg-[#09272c];
+    @apply flex justify-center items-center py-4 px-8 bg-green text-[15px] text-white font-semibold transition-all duration-300 hover:bg-[#09272c] lg:text-base;
   }
 }
 
@@ -30,7 +30,7 @@
 }
 /* Header Link Active */
 .header__link {
-  @apply text-[15px] text-grey uppercase md:text-white md:capitalize;
+  @apply text-[15px] text-grey uppercase md:text-white md:capitalize lg:text-base;
 }
 .header__link.active-link {
   @apply relative text-green font-semibold md:text-white;

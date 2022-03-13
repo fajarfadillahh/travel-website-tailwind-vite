@@ -87,10 +87,12 @@
         >
           <div class="home__data">
             <span
-              class="home__subtitle block text-[15px] text-white font-semibold capitalize mb-3"
+              class="home__subtitle block text-[15px] text-white font-semibold capitalize mb-3 lg:text-base"
               >Discover your place</span
             >
-            <h1 class="home__title text-[42px] text-white font-medium mb-10">
+            <h1
+              class="home__title text-[42px] text-white font-medium mb-10 lg:text-[64px]"
+            >
               Explore The <br />
               Best
               <b
@@ -101,7 +103,7 @@
             <a href="#" class="home__button button inline-flex">Explore Now</a>
           </div>
 
-          <div class="home__social flex flex-col gap-6">
+          <div class="home__social flex flex-col gap-6 lg:flex-row lg:gap-10">
             <a
               href="#"
               class="home__social-link inline-flex text-[1.5rem] text-white w-max"
@@ -126,17 +128,17 @@
           </div>
 
           <div
-            class="home__info absolute right-6 bottom-8 w-[250px] bg-green flex py-6 px-4 items-center gap-x-2"
+            class="home__info absolute right-6 bottom-8 w-[250px] bg-green flex py-6 px-4 items-center gap-x-2 lg:w-[328px] lg:grid-cols-[1fr,_2fr] lg:gap-x-8"
           >
             <div class="home__info-data">
               <h3
-                class="home__info-title text-[14px] text-white font-semibold mb-3"
+                class="home__info-title text-[14px] text-white font-semibold mb-3 lg:text-base"
               >
                 5 Best places to visit
               </h3>
               <a
                 href="#"
-                class="home__info-button inline-flex items-center text-[14px] text-white gap-1"
+                class="home__info-button inline-flex items-center text-[14px] text-white gap-1 lg:text-base"
               >
                 More
                 <i class="bx bx-right-arrow-alt text-[1rem]"></i>
@@ -147,7 +149,7 @@
               <img
                 src="./src/img/home2.jpg"
                 alt=""
-                class="home__info-img w-[145px] transition-all duration-300 hover:scale-110"
+                class="home__info-img w-[145px] transition-all duration-300 hover:scale-110 lg:w-[240px]"
               />
             </div>
           </div>
@@ -157,14 +159,16 @@
 
       <!-- ===== ABOUT SECTION ===== -->
       <section class="about section">
-        <div class="about__container container grid gap-12">
-          <div class="about__data text-center">
-            <h1 class="about__title section-title">
+        <div
+          class="about__container container grid gap-12 lg:grid-cols-2 lg:items-center"
+        >
+          <div class="about__data text-center lg:text-left">
+            <h1 class="about__title section-title lg:text-left">
               More Information <br />
               About The Best Beaches
             </h1>
             <p
-              class="about__text text-[15px] text-grey leading-text mb-8 xs:w-[350px] xs:mx-auto sm:w-[450px]"
+              class="about__text text-[15px] text-grey leading-text mb-8 xs:w-[350px] xs:mx-auto sm:w-[450px] lg:w-auto"
             >
               You can find the most beautiful and pleasant places at the best
               prices with special discounts, you choose the place we will guide
@@ -311,12 +315,12 @@
             >
               <div class="experience__info-data">
                 <h3
-                  class="experience__info-title text-[20px] text-green font-semibold mb-1"
+                  class="experience__info-title text-[20px] text-green lg:text-[24px] font-semibold mb-1"
                 >
                   20
                 </h3>
                 <p
-                  class="experience__info-text text-[14px] text-green leading-text"
+                  class="experience__info-text text-[14px] text-green leading-text lg:text-base"
                 >
                   Year <br />Experience
                 </p>
@@ -324,12 +328,12 @@
 
               <div class="experience__info-data">
                 <h3
-                  class="experience__info-title text-[20px] text-green font-semibold mb-1"
+                  class="experience__info-title text-[20px] text-green font-semibold mb-1 lg:text-[24px]"
                 >
                   75
                 </h3>
                 <p
-                  class="experience__info-text text-[14px] text-green leading-text"
+                  class="experience__info-text text-[14px] text-green leading-text lg:text-base"
                 >
                   Complete <br />Tours
                 </p>
@@ -337,12 +341,12 @@
 
               <div class="experience__info-data">
                 <h3
-                  class="experience__info-title text-[20px] text-green font-semibold mb-1"
+                  class="experience__info-title text-[20px] text-green font-semibold mb-1 lg:text-[24px]"
                 >
                   650+
                 </h3>
                 <p
-                  class="experience__info-text text-[14px] text-green leading-text"
+                  class="experience__info-text text-[14px] text-green leading-text lg:text-base"
                 >
                   Tourist <br />Destination
                 </p>
@@ -351,7 +355,7 @@
 
             <div class="experience__img relative grid pb-8">
               <div
-                class="experience__img-overlay overflow-hidden w-[265px] mr-8 sm:w-[390px]"
+                class="experience__img-overlay overflow-hidden w-[265px] mr-8 sm:w-[390px] lg:w-[460px]"
               >
                 <img
                   src="./src/img/experience1.jpg"
@@ -361,7 +365,7 @@
               </div>
 
               <div
-                class="experience__img-overlay overflow-hidden absolute w-[120px] top-8 right-0 sm:w-[160px] sm:top-[20%]"
+                class="experience__img-overlay overflow-hidden absolute w-[120px] top-8 right-0 sm:w-[160px] sm:top-[20%] lg:w-[180px]"
               >
                 <img
                   src="./src/img/experience2.jpg"
@@ -381,7 +385,7 @@
           <div class="video__data text-center">
             <h1 class="video__title section-title">Video Tour</h1>
             <p
-              class="video__text text-[15px] text-grey leading-text xs:w-[350px] xs:mx-auto sm:w-[450px]"
+              class="video__text text-[15px] text-grey leading-text xs:w-[350px] xs:mx-auto sm:w-[450px] lg:text-base"
             >
               Find out more with our video of the most beautiful and pleasant
               places for you and your family.
@@ -389,7 +393,7 @@
           </div>
 
           <div
-            class="video__content relative xs:w-[350px] xs:justify-self-center sm:w-[450px]"
+            class="video__content relative xs:w-[350px] xs:justify-self-center sm:w-[450px] lg:w-[520px]"
           >
             <video class="video__content-file" id="video-file">
               <source src="./src/video/video.mp4" type="video/mp4" />
@@ -407,13 +411,13 @@
 
       <!-- ===== PLACE SECTION ===== -->
       <section class="place section">
-        <div class="place__container container grid gap-12">
+        <div class="place__container container grid gap-8">
           <div class="place__data">
             <h1 class="place__title section-title">Choose your best place</h1>
           </div>
 
           <div
-            class="place__group grid justify-center gap-6 sm:grid-cols-[repeat(2,_max-content)]"
+            class="place__group grid justify-center gap-6 sm:grid-cols-[repeat(2,_max-content)] lg:sm:grid-cols-[repeat(3,_max-content)]"
           >
             <div class="place__item relative h-[300px] overflow-hidden group">
               <img
@@ -595,8 +599,10 @@
       <!-- ===== PLACE SECTION ===== -->
 
       <!-- ===== NEWSLETTER SECTION ===== -->
-      <section class="newsletter py-16 bg-green">
-        <div class="newsletter__container container grid gap-8">
+      <section class="newsletter py-16 bg-green lg:bg-transparent lg:px-6">
+        <div
+          class="newsletter__container container grid gap-8 lg:bg-green lg:py-16"
+        >
           <div class="newsletter__data text-center">
             <h1 class="newsletter__title section-title text-white">
               Subscribe Our <br />
@@ -631,7 +637,7 @@
       <section class="sponsored section">
         <div class="sponsored__container container">
           <div
-            class="sponsored__group grid grid-cols-2 gap-x-6 gap-y-14 justify-items-center"
+            class="sponsored__group grid grid-cols-[repeat(auto-fit,_minmax(120px,_2fr))] gap-x-6 gap-y-14 justify-items-center"
           >
             <div class="sponsored__item">
               <img
